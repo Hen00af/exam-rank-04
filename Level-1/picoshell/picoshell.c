@@ -31,7 +31,7 @@ int picoshell(char **cmds[])
                 close(prev_fd);
             prev_fd = fds[0];
             wait(NULL);
-            i++;
+            
         }
     }
 
